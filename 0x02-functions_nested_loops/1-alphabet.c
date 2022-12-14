@@ -4,21 +4,15 @@ include "main.h"
  * print_alphabet - entry point
  * Return: 0
  */
-void print_alphabet(void);
 
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
+	ch = 'a';
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		ch = 'a';
-
-		for (ch = 'a'; ch <= 'z'; ch++)
-		{
-			_putchar(ch);
-		}
-		_putchar('\n');
+		_putchar(ch);
 	}
-
-
-	return (0);
+	_putchar('\n');
 }
+
