@@ -25,5 +25,5 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	dest[length] = '\0';
-	nclude "main.h"
+	return (dest);
 }
